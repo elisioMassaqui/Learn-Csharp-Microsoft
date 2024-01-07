@@ -103,3 +103,4 @@ int secondDigit = (int) (gradePointAverage * 100 ) % 10;
 
 int firstDigit = (int) (2.994573 * 10) % 10;
 Console.WriteLine($"Final GPA: {leadingDigit}.{firstDigit}{secondDigit}");
+
