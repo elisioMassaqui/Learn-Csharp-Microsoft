@@ -96,3 +96,10 @@ Console.WriteLine($"{totalGradePoints} {totalCreditHours}");
 decimal gradePointAverage = totalGradePoints/(decimal)totalCreditHours;
 
 Console.WriteLine($"Final GPA: {gradePointAverage}");
+
+int leadingDigit = (int) gradePointAverage;
+
+int secondDigit = (int) (gradePointAverage * 100 ) % 10;
+
+int firstDigit = (int) (2.994573 * 10) % 10;
+Console.WriteLine($"Final GPA: {leadingDigit}.{firstDigit}{secondDigit}");
