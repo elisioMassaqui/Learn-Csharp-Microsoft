@@ -56,5 +56,12 @@ int course3credit = 4;
 int course4credit = 4;
 int course5credit = 3;
 
+int gradeA = 4;
+int gradeB = 3;
 
+int course1Grade = gradeA;
+int course2Grade = gradeB;
+int course3Grade = gradeB;
+int course4Grade = gradeB;
+int course5Grade = gradeA;
 
