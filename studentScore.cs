@@ -91,3 +91,8 @@ totalGradePoints += course4Credit * course4Grade;
 totalGradePoints += course5Credit * course5Grade;
 
 Console.WriteLine($"{totalGradePoints} {totalCreditHours}");
+
+//A menoria vence kkkk, valo sobre a conversão.
+decimal gradePointAverage = totalGradePoints/(decimal)totalCreditHours;
+
+Console.WriteLine($"Final GPA: {gradePointAverage}");
