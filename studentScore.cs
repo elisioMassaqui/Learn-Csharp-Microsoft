@@ -80,3 +80,5 @@ totalCreditHours += course2Credit;
 totalCreditHours += course3Credit;
 totalCreditHours += course4Credit;
 totalCreditHours += course5Credit;
+
+totalCreditHours = course1Credit + course2Credit + course3Credit + course4Credit + course5Credit;
