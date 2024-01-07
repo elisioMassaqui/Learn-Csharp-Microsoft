@@ -72,4 +72,4 @@ Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
 Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
 
 
-
+int totalCreditHours = 0;
